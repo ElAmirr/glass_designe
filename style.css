@@ -28,11 +28,22 @@ h3 {
 .three {
   font-family: "Poppins", sans-serif;
   height: 100vh;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   display: flex;
   align-items: center;
   justify-content: center;
   scroll-snap-align: start;
+}
+
+.one {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+.two {
+  background: linear-gradient(to right top, #658cdf, #6c79eb);
+}
+
+.three {
+  background: linear-gradient(to right top, #df65b0, #eb6c81);
 }
 
 .user img {
