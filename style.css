@@ -35,6 +35,11 @@ h3 {
   scroll-snap-align: start;
 }
 
+.user img {
+  border-radius: 50%;
+  height:100px;
+  width:100px;
+} 
 .container {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
