@@ -23,13 +23,22 @@ h3 {
   opacity: 0.8;
 }
 
-main {
+.one,
+.two,
+.three {
   font-family: "Poppins", sans-serif;
-  min-height: 100vh;
+  height: 100vh;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   display: flex;
   align-items: center;
   justify-content: center;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 .glass {
